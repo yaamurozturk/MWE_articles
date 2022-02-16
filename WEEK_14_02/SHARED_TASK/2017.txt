@@ -1,0 +1,59 @@
+2017 shared task: 
+---------------------------------------------------------
+Problem: idiosyncracy of mwes.
+Structural problems: 
+	->may not be adjacent
+	->literal or idiomatic meaning
+	->syntactical ambiguity (surface form)
+	->different behaviors in languages
+	->different categories may share same syntactic structure 
+	
+Annotation problems: 
+	-> heterogenity of languages 
+	-> not enough native speakers for each language
+	-> universality
+	
+3 categories were defined: (note that this is the (1st?) version so not as extensive as the others) 
+-> universal (light verb constructions[LVC], idioms[ID])
+-> quasi-universal(Reflexive[IRF], verb-particle constructions[VPC])
+-> other  
+
+-> specific notes: 
+	-Hungarian used legal corpus so no VID
+	-Farsi, no categories, all in Other 
+	-the most frequent category is reflexive
+	-tokenisation is very important in the case of MWE identification
+	-the length of annotated corpus is important for annotators to gain experience
+	-uncertain lexicalisation
+	
+Evaluation measures: (return to this point)
+
+
+	
+	
+Systems exploited:
+	-> parsing (Fips rule based multilingual parser)
+	-> transition-based dependency parsing system
+	-> probabilistic transition-based dependency system
+	-> POS and dependency modules
+	-> sequence labeling with CRFs 
+	-> neural networks (os lib T-F) 
+	
+Systems results:
+
+	-> precision higher than recall*
+	-> per token score is higher than per MWE in most cases 
+	
+*which points out most mwes occur very rarely and test mwes do not occur in training data
+
+	
+Remarks for the 2017 shared task:
+-multilingual VMWE framework is defined
+-future work will focus on more specific phenomenona (variability, discontinuity, length etc.)
+
+Notes to self:
+-türkçe'de VPC ve IRV yok
+-karar vermek LVC bence 
+-specifically check for mwes that exist in more than one language*
+tr: kendine gelmek literally (to come to self) (translated as: gain consciousness, getting better) 
+ar: xxx literally: to come to self (translated as: to gain focus)
