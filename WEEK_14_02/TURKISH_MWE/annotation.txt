@@ -1,0 +1,22 @@
+Comprehensive Annotation of Mwes in Turkish (mostly contains info about non-verbals) 
+Excluding: named entities 
+
+-annotation: fully manual 
+- 11 main mwe categories and 8 named entities
+-non compositionality and discontinuity are common challenged among all languages 
+-variability of mwe instances are high due to the agglutinative/morphological structure
+
+Categories of Turkish
+ 
+->Nominal Compound: diş macunu (toothpaste) 
+->***Duplication MWEs : N -> mal mülk (property property)/V -> gide gele(going coming)/geldim geldim(lit. I arrived I arrived, meaning sth like: ok don't rush me I'm here)
+check for verbal examples of this type** (they seperated verbal mwes and duplication from verbal mwes
+but there are verbal occurences as examplified above.
+->Verbal compound: karar vermek (to decide) v + n 
+->Light Verb Construction: (formed with auxilaries to be, to do, to render, to order...) 
+->Compound MWEs constructed with determiners (not verbal like her şey (everything) 
+->Conjunction MWEs: bu arada (by the way) 
+->Formulaic expressions: carries the meaning of well wishing or gratitude (ellerine sağlık: gratitude towards the person who cooked for you)
+->Idiomatic expressions: problem here is distinguishing between literal especially automatically
+		- ayağa kalkmak (literally: stand up/to protest/), context is needed
+		- ayakta kalmak 
