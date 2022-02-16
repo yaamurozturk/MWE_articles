@@ -1,4 +1,4 @@
-Comprehensive Annotation of Mwes in Turkish (mostly contains info about non-verbals) 
+Comprehensive Annotation of Mwes in Turkish (mostly contains info about non-verbals) with some references to consistency check to see some examples 
 Excluding: named entities 
 
 -annotation: fully manual 
@@ -18,5 +18,20 @@ but there are verbal occurences as examplified above.
 ->Conjunction MWEs: bu arada (by the way) 
 ->Formulaic expressions: carries the meaning of well wishing or gratitude (ellerine sağlık: gratitude towards the person who cooked for you)
 ->Idiomatic expressions: problem here is distinguishing between literal especially automatically
-		- ayağa kalkmak (literally: stand up/to protest/), context is needed
-		- ayakta kalmak 
+		- ayağa kalkmak (literally: stand up/to protest), context is needed to identify properly
+
+
+Personal notes
+
+article: probably will not need to refer for future tasks 
+
+Examples for future reference to issues: 
+->ayağa kalkmak/kalmak
+->ortaya koymak/koyam
+->aşk olmak/aşık olmak
+
+(when compared to french) lots of lemmatisation problems, which causes same mwe to be identified differently, probably increases to number of variety but not in a correct way.
+
+
+consistency check: lemmatisation is not perfect but as an observation: cases of inflection are better lemmatised than temps et personnes 
+ 
