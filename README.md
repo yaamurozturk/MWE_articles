@@ -19,7 +19,7 @@ First edition of reading list
 - Baldwin, T. and Kim, S. N. (2010) Multiword Expressions https://people.eng.unimelb.edu.au/tbaldwin/pubs/handbook2009.pdf, in Nitin Indurkhya and Fred J. Damerau (eds.) Handbook of Natural Language Processing, Second Edition, CRC Press, Boca Raton, USA, pp. 267-292. (esp. for properties, types, verbal constructions) ( + week 1)
 
 - Agata Savary et al. 2018. PARSEME multilingual corpus of verbal multiword expressions. In Stella Markantonatou, Carlos Ramisch, Agata Savary & Veronika Vincze (eds.), Multiword expressions at length and in depth: Extended papers from the MWE 2017 workshop, 87-147. Berlin: Language Science Press. DOI: 10.5281/zenodo.147159
-- 
+
 - Carlos Ramisch, Silvio Ricardo Cordeiro, Agata Savary, Veronika Vincze, Verginica Barbu Mititelu, Archna Bhatia, Maja Buljan, Marie Candito, Polona Gantar, Voula Giouli, Tunga Güngör, Abdelati Hawwari, Uxoa Iñurrieta, Jolanta Kovalevskaitė, Simon Krek, Timm Lichte, Chaya Liebeskind, Johanna Monti, Carla Parra Escartín, Behrang QasemiZadeh, Renata Ramisch, Nathan Schneider, Ivelina Stoyanova, Ashwini Vaidya, Abigail Walsh (2018) "Edition 1.1 of the PARSEME Shared Task on Automatic Identification of Verbal Multiword Expressions", In the Proceedings of the Joint Workshop on Linguistic Annotation, Multiword Expressions and Constructions (LAW-MWE-CxG-2018), 25-26 August 2018, Santa Fe, USA.
 
 
