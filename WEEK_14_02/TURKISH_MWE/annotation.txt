@@ -26,9 +26,10 @@ Personal notes
 article: probably will not need to refer for future tasks 
 
 Examples for future reference to issues: 
-->ayağa kalkmak/kalmak
-->ortaya koymak/koyam
-->aşk olmak/aşık olmak
+->ayağa kalkmak/ayakta kalmak -> lemma1 : ayak kalk: get up lemma2-> ayak kal -> stay up or prevail
+->ortaya koymak/koyam -> lemma1: orta koy/koyam (exhibit) -> lemmatisation is wrong, koyam-a means negative, present both ways in the consistency check 
+->aşk olmak/aşık olmak( -> both expressions should have "aşk ol" as lemma but in UD they are shown as two distinct words  
+lit. love happen/lover happen, first is idiomatic, meaning "horsefeathers to you" 
 
 (when compared to french) lots of lemmatisation problems, which causes same mwe to be identified differently, probably increases to number of variety but not in a correct way.
 
