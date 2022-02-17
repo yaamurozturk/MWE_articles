@@ -58,4 +58,26 @@
 	-> difficult to distinguish whether words are used in literal or idiomatic sense, very much dependent on the context
 	(make a face, kick the bucket
 	
-	Decomposability: 
+	Decomposable 
+	-> spill the beans, can be -some kind of- paraphrased 
+	-> tend to be syntactically flexible
+	(spill: reveal beans: secret)
+	Non-decomposable
+	kick the bucket
+	-> less syntactically flexible
+	
+	Turkish examples(?)
+	nalları dikmek = kick the bucket (non decomposable)
+	lit.(horseshoe erect) 
+	kara para aklamak = money laundering so can be composed (kara para: illegally earned money aklamak: showing as if legal
+	lit. (dark money acquit) 
+	kara has the semantics of illegal and "aklamak" acquiting/bleaching
+	
+	1.4 Mwe Classification
+	in this part there is a lot of reference to nominal types, nominal expressions tend to be fixed and there 
+	is no issue of inflection in these cases. 
+	
+	a fixed verbal expression example in turkish: göz göre göre (lit. eye see(ingly) see(ingly) - meaning blatantly) 
+	
+	Their classification is more focused on syntax rather than semantics and since they only mention english, it
+	is restrictive. (fixed(collocations?)-semi fixed- syntactically flexible)
