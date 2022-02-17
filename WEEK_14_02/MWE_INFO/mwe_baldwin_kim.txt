@@ -1,0 +1,61 @@
+1.3.2 Verbal MWEs: (similar to the typology in shared task) 
+
+   Verb Paricle Constructions
+   
+	-> verb particle constructions: phrasal verbs 
+		take off, bring about ..
+	->first mention of the "tail" meaning there is a lot of phrasal verbs that are not frequently used which makes
+	the task of making a parser with full coverage of this variety. 
+	-> words have to lose their meaning to some point (ex. swallow down is not mwe)*
+	-> VPC can:
+			-inherit its semantics from V and Particle (not idiomatic) 
+			-semantics from V ony
+			-semantics from Particle only
+			-semantics unrelated to V and Paricle
+			
+			
+	1.3.2.2 Prepositional Verbs
+	
+	-> main difference from VPC is Preposition is TRANSITIVE  (refer to, come across) 
+	-> hard to distinguish from verb-preposition combinations 
+	
+	1.3.2.3 Light Verb Constructions
+	
+	-> Verb - Noun complement, light meanining that verb sense is bleached, contribution to meaning of LVC 
+	is small 
+	-> a test to check this can be paraphrasing the LVC with the verbal form of the noun complement
+	(take a walk vs walk, fotoğraf çekmek(take a photograph)
+	
+	-> according to their definition of light verbs, variety accross language can cause problems since light verbs
+	are not the same 
+	-> most cases light verbs are interchangable often with different semantics 
+	(make a call/take a call)
+	tr(telefon etmek/telefon açmak)
+	lit.(telephone make/do|telephone open) meaning make a call and answer a call or according to inflection second expression can also mean make a call. 
+	
+	*If we consider LVC's only with light verbs then telefon etmek should be LVC whereas telefon açmak VID because verb 
+	açmak (open) loses literal meaning. This shouldn't be considered light because açmak has a semantic importance. 
+	
+	
+	
+	
+	Light Verbs for reference 
+	-------------------------------------
+	english 	turkish 	                
+	
+	do          olmak(be)					
+	give		kılmak(render)				
+	have  		etmek(do or make, render)
+	make		eylemek(do or make)
+	take        yapmak(do or make) 
+	--------------------------------------
+	
+	
+	1.3.2.4 Verb-Noun Idiomatic Constructions
+	
+	-> verb and noun in DIRECT OBJECT POSITION and are semantically idiomatic
+	-> these are not the only group that can be semantically idiomatic
+	-> difficult to distinguish whether words are used in literal or idiomatic sense, very much dependent on the context
+	(make a face, kick the bucket
+	
+	Decomposability: 
