@@ -1,1 +1,56 @@
 Shared task 2018
+
+-> important remark is that they tried unifying the annotation methods for all languages in this task, which is 
+not the case for UD and other mwe annotation practices
+
+Different typology from version 2017: 
+
+	->Universal Categories:
+	-LVC
+	-VID
+	
+	->Semi Universal
+	->IRV
+	->VPC
+	->MVC
+	
+-> there is no vpc and irv in turkish, maybe having less categories can be advantegous 
+
+4.2 Inter Annotator Agreement 
+Annotation sizes vary a lot, in turkish only 187 sentences were double annotated which is not enough for this 
+type of project
+	
+Evaluation mesures:
+	continuity: per mwe score for continuous and discontinous 
+	
+->continuity: 
+TR- istifa edecek (resignation will-do) FR- il s'agit
+*Better results for continuous than discontinous. 
+
+
+->novelty: seen/unseen 
+Seen if a mwe with the same multiset of lemmas is annotated at least once in a training corpus
+Unseen if not. 
+This was calculated with seen-in-train/unseen-in-train/varient-of-train?
+
+->length:
+(multi token vs single token) evaluation shows better results for multi token mwes than single token. Note that these words are frequently
+written wrong in general and meaning might change. 
+Check the annotation guide to see these usages are counted as mwe or is it taken like peut-etre (the examples are still verbs)
+they are known as: settled(?)joint verbs(kaynamış birleşik fiiller)
+
+Varsay(mak) (to assume)    lit.(have - count)
+Vazgeç(mek) (to give up)   lit.(to put - pass)
+Elver(mek)  (permit)       lit.(hand-give) -> if written seperately the meaning changes - el(e) vermek (reveal) lit.(foreign/hand give) 
+Öngör(mek)  (forsee)       lit.(before-see)
+ 
+ 
+
+ 
+
+->variability:
+
+
+
+
+
