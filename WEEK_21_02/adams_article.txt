@@ -75,10 +75,61 @@ defective: idiomatic occurence appears in a way which is usually prohibited (idi
 These two properties can affect the paradigm of each individual lexeme of a MWE
 -> these tasks tell us what is needed in a lexicon in order to be able to recognize mwes efficiently. 
 ---------------------------------------
-SAMPLE LEXICON  MODEL 
+SAMPLE LEXICON  MODEL  (not very clear check back) 
 
-XMG: extensible meta grammar 
+-> so the purpose of making a lexicon is to increase diversity in the cases that we are working on. 
 
 
+XMG: extensible meta grammar: (used to be used in the scope of this project)
+-> Grammar rules are represented by classes and classes are composed of modules. 
+-> extended definitive clause grammer 
+-> High expressivity but complex structures are hard to work automatically.
 
+-----------------------------------
+REGULAR EXPRESSION BASED REPRESENTATION
+
+not ideal 
+
+--------------------------------------
+
+LITERAL OCCURENCES and COARSE SYNTACTIC STRUCTURE
+
+1) Literal Occurences
+
+Literal -> non-idiomatic, in first sense
+Idiomatic -> show some form of idiosyncracy/
+Coincidental -> if it's neither 
+
+-i dont understand the example here- 
+
+I paid them a visit at the hospital
+I paid them a visit of the museum
+I paid for a visit of the museum
+
+
+-> To decide whether a non-idiomatic occurence is in a syntactic configuration  that CAN be 
+idiomatic, we compare this configuration with the configuration of KNOWN IDIOMATIC occurences. 
+
+to compare these -> Coarse Syntactic Structure was defined. 
+
+----------------------------------------------
+2) Coarse Syntactic Structure
+
+-> simplification of the dependency graph of a mwe occurence
+
+first all words changed to lemmas
+then we get a basic view of the components that matter to us, and this occurence doesnt have to be a mwe 
+(in this case idiomatic usage of pay visit would take visit as the object of the verb) 
+for easier viewing we can also change the unnecessary terms such as the words in disjoint mwes with other ones, this makes it coarse i guess
+
+-> css can be created from any subsequence of words occuring in a sentence
+-> two css coming from different sentences will be considered identical if their
+	-lemmas, pos, dep, dummy nodes, overall structures are same.
+-> does not encode semantics 	
+-> css uses lemmas and POS as approximation of lexeme  (but we will argue the relevancy of features used)
+-> is designed for the notion of a literal occurence of a mwe, could also be a basis for the lexicon
+-> the purpose is to minimize non-idiomatic reading and maximise coverage then it would seem probable
+that morphosyntactic properties would be better for representation. so a generalized version: lambda css
+
+2.2 Lambda CSS
 
