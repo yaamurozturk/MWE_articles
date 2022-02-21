@@ -25,13 +25,14 @@ Evaluation mesures:
 	
 ->continuity: 
 TR- istifa edecek (resignation will-do) FR- il s'agit
-*Better results for continuous than discontinous. 
+->Better results for continuous than discontinous. 
 
 
 ->novelty: seen/unseen 
 Seen if a mwe with the same multiset of lemmas is annotated at least once in a training corpus
 Unseen if not. 
-This was calculated with seen-in-train/unseen-in-train/varient-of-train?
+This was calculated with seen-in-train/unseen-in-train
+comparing has a new look with has a look of innocence vs having a look at sth
 
 ->length:
 (multi token vs single token) evaluation shows better results for multi token mwes than single token. Note that these words are frequently
@@ -45,10 +46,9 @@ Elver(mek)  (permit)       lit.(hand-give) -> if written seperately the meaning 
 Öngör(mek)  (forsee)       lit.(before-see)
  
  
-
- 
-
-->variability:
+->**variability: seen-in-train/varient-of-train (come back to this point)
+per-vmwe for the subset of vmwe's that are variants of training corpus vmwes. 
+-> variant if it is deemed as a seen vmwe and the training corpus does not contain the sequence surface form tokens as seen in this vmwe
 
 
 
