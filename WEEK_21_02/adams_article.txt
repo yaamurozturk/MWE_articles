@@ -1,0 +1,84 @@
+Notes for article 
+"Multi criterion optimisation for mwe lexicon design promoting lingustic diversity"
+(tr->çok sözcüklü fiil ifadeleri sözlük tasarımı için dilbilimsel çeşitliliği yükselten çoklu kriterleri iyileştime)
+
+INTRO AND FORMALISATION
+------------------------
+Comparison
+-----------
+
+-> Kim and Baldwin consider mwe's of pragmatic and statistical nature in their definitions (collocations such as talk freely) 	
+-> Parseme does not consider collocations as MWEs. 
+-> Both agree on "multi-worditude" and use idiosyncracy/idiomaticity to convey the same idea. 
+
+-> NON DEFINING PROPERTIES (additional properties that are important for the lexicon design) 
+K & B 
+-----
+Crosslingual variation (but they mostly focus on english examples)
+Proverbiality
+Prosody 
+
+Parseme 
+-------
+dis-Continuity
+Regular Variability
+Literal-idiomatic ambiguity 
+
+
+
+PROPERTIES ((mentioned as especially important) 
+-----------
+
+Variability (focus on complexity)
+------------
+->Mwes can appear in numerous forms so just focusing on the lemmas (which would be the case of representation in a normal dictionary) would be diminuitive. 
+->Components can be found in different forms orders and different syntactical relations.
+
+
+Discontinuity (we dont know the level of complexity is needed to represent NL) 
+-------------
+-> Components can be adjacent or can have a word or set of words between them. 
+-> So how to describe the possible insertions?
+-> What level of "expressivity" is necessary to define natural language, natural language is mildly context sensitive 
+-> but not all context sensitive languages are created equally
+->complexity level of NL is dependent on the language 
+**read about context sensitivity ([32] S. M. Shieber. Evidence against the context-freeness of natural language.
+In Philosophy, language, and artificial intelligence, pages 79–89. Springer,
+1985.)
+
+SO -> -I need to understand time complexity measures for this part-
+
+We dont know what level of complexity is needed to represent NL and the need for this is to represent
+insertions in MWE (so it is a problem of discontinuity) 
+
+less expressive grammars -> better guarantee regarding the time needed necessary to parse a sentence.
+(regular grammars: linear/mildly context sensitive: polynomial/non-decidable: infinite time possible)
+more expressive grammars -> can handle more complex sentences without relying on simplifications
+
+Literal-idiomatic ambiguity
+---------------------------
+
+Very important, since the same composants of mwes can appear in a sentence without showing idiosyncracy/idiomaticity
+renders identification difficult
+
+
+MWE-to-MWE distinction (addition to what is and isnt a mwe, focusing on the question how two mwes can be distinguished between each other) 
+he proposes some theories from understanding the lexeme to mwe occurences
+
+-> do they have the same meaning or function
+-> are they composed of the same lexicalised lexemes
+-> do they share their restrictive and defective properties*
+
+restrictive: idiomatic occurence cannot appear in certain ways (idiomatic - non idiomatic/ he kicked the bucket (both ways)
+defective: idiomatic occurence appears in a way which is usually prohibited (idiomatic - ungrammatical / by and large by and narrow)
+
+These two properties can affect the paradigm of each individual lexeme of a MWE
+-> these tasks tell us what is needed in a lexicon in order to be able to recognize mwes efficiently. 
+---------------------------------------
+SAMPLE LEXICON  MODEL 
+
+XMG: extensible meta grammar 
+
+
+
+
