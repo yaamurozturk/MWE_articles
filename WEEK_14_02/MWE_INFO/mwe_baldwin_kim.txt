@@ -1,6 +1,6 @@
 1.3.2 Verbal MWEs: (similar to the typology in shared task) 
 
-   Verb Paricle Constructions
+   Verb Particle Constructions
    
 	-> verb particle constructions: phrasal verbs 
 		take off, bring about ..
@@ -43,11 +43,12 @@
 	-------------------------------------
 	english 	turkish 	                
 	
-	do          olmak(be)					
+	do          	olmak(be)					
 	give		kılmak(render)				
 	have  		etmek(do or make, render)
 	make		eylemek(do or make)
-	take        yapmak(do or make) 
+	take       	yapmak(do or make) 
+			buyurmak ( order)
 	--------------------------------------
 	
 	
@@ -79,5 +80,54 @@
 	
 	a fixed verbal expression example in turkish: göz göre göre (lit. eye see(ingly) see(ingly) - meaning blatantly) 
 	
-	Their classification is more focused on syntax rather than semantics and since they only mention english, it
-	is restrictive. (fixed(collocations?)-semi fixed- syntactically flexible)
+	
+	
+	----------------------------------------------------------------------
+	
+
+Comparison: 
+Differences between PARSEME and this article's definitions of MWEs (summarized from Adam's article)
+
+-> Kim and Baldwin consider mwe's of pragmatic and statistical nature in their definitions (collocations such as talk freely) 	
+-> Parseme does not consider collocations as MWEs. 
+-> Both agree on "multi-worditude" and use idiosyncracy/idiomaticity to convey the same idea. 
+
+-> NON DEFINING PROPERTIES (additional properties that are important for the lexicon design) 
+K & B 
+-----
+Crosslingual variation (but they mostly focus on english examples)
+Proverbiality
+Prosody 
+
+Parseme (mentioned as especially important in Adam's article) 
+-------
+dis-Continuity
+Regular Variability
+Literal-idiomatic ambiguity 
+
+-------------------------------
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
