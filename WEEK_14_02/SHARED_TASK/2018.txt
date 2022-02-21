@@ -45,10 +45,19 @@ Vazgeç(mek) (to give up)   lit.(to put - pass)
 Elver(mek)  (permit)       lit.(hand-give) -> if written seperately the meaning changes - el(e) vermek (reveal) lit.(foreign/hand give) 
 Öngör(mek)  (forsee)       lit.(before-see)
  
+<<<<<<< HEAD
  
 ->**variability: seen-in-train/varient-of-train (come back to this point)
 per-vmwe for the subset of vmwe's that are variants of training corpus vmwes. 
 -> variant if it is deemed as a seen vmwe and the training corpus does not contain the sequence surface form tokens as seen in this vmwe
+=======
+
+->**variability: seen-in-train/varient-of-train (come back to this point)
+per-vmwe for the subset of vmwe's that are variants of training corpus vmwes. 
+-> variant if it is deemed as a seen vmwe and the training corpus does not contain the sequence surface form tokens as seen in this vmwe
+
+
+>>>>>>> d7cf16b50bd768736aa0a481ac147856b1c3419b
 
 
 
