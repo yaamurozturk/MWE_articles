@@ -57,8 +57,6 @@ per-vmwe for the subset of vmwe's that are variants of training corpus vmwes.
 -> variant if it is deemed as a seen vmwe and the training corpus does not contain the sequence surface form tokens as seen in this vmwe
 
 
->>>>>>> d7cf16b50bd768736aa0a481ac147856b1c3419b
-
 
 
 
