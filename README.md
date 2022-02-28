@@ -26,7 +26,7 @@ First edition of reading list
 
 - Carlos Ramisch, Agata Savary, Bruno Guillaume, Jakub Waszczuk, Marie Candito, Ashwini Vaidya, Verginica Barbu Mititelu, Archna Bhatia, Uxoa Iñurrieta, Voula Giouli, Tunga Güngör, Menghan Jiang, Timm Lichte, Chaya Liebeskind, Johanna Monti, Sara Stymne, Abigail Walsh, Renata Ramisch, Hongzhi Xu (2020) "Edition 1.2 of the PARSEME Shared Task on Semi-supervised Identification of Verbal Multiword Expressions", in the Proceedings of the Joint Workshop on Multiword Expressions and Electronic Lexicons (MWE-LEX 2020), 13 December 2020, Barcelona, Spain (online). 
 
-- Multi-criterion optimisation for multiword expression lexicon design promoting linguistic diversity, Adam Lion-Bouton, April 2021. 
+- Multi-criterion optimisation for multiword expression lexicon design promoting linguistic diversity, Adam Lion-Bouton, April 2021. (+ week 2)
 
 - Matthieu Constant, Gülsen Eryigit, Johanna Monti, Lonneke van der Plas, Carlos Ramisch, Michael Rosner, and Amalia Todirascu. 2017. Multiword expression processing: A survey https://www.mitpressjournals.org/doi/full/10.1162/COLI_a_00302, Computational Linguistics, 43(4):837-892. (suggested starting point: 3.1 Motivations and challenges for MWE identification, p.855) 
 
