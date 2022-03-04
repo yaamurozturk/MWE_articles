@@ -30,6 +30,10 @@ First edition of reading list
 
 - Matthieu Constant, Gülsen Eryigit, Johanna Monti, Lonneke van der Plas, Carlos Ramisch, Michael Rosner, and Amalia Todirascu. 2017. Multiword expression processing: A survey https://www.mitpressjournals.org/doi/full/10.1162/COLI_a_00302, Computational Linguistics, 43(4):837-892. (suggested starting point: 3.1 Motivations and challenges for MWE identification, p.855) 
 
+-Proc. of 5th Workshop on Cognitive Aspects of Computational Language Learning (CogACLL) @ EACL 2014, pages 38–42,
+Gothenburg, Sweden, April 26 2014. c©2014 Association for Computational LinguisticsTowards a computational model of grammaticalization and
+lexical diversity ( + week 3)
+
 
 Sources
 ---
