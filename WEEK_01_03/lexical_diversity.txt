@@ -1,0 +1,31 @@
+Towards a computational model of grammaticalization and lexical diversity
+
+->Languages with complex morphology tend to have longer zipfian tails than languages with simpler morphology.
+->Their study focuses on a parallel corpus of 4 languages that differ in morphology.
+-> to model the diachronic process of co-occurent words merging into one they present
+	- quantitative measure of lexical diversity
+	- model of changes in lexical diversity over severaş generations of merging frequent collocates.
+  
+  ** Lexical diversity can be measured cross-languages with calculating frequency distributions for parallel texts and approximating the corresponding ZM parameters in a max. likelihood estimation.
+  
+	
+	Two main focus: Fijian and Hungarian as opposites in terms of lexical diveristy
+	-> Fijian has higher frequencies towards lowest ranks and shortest tail
+	-> opposite for Hungraian
+	Zm parameter values (Fijian has highest , HU lowest)
+  
+  -> issues with this approach
+      - grammaticalization algo is oversimplified, no POS tagging?? 
+      - only considers bigram frequencies 
+  
+  
+  Notes??
+  
+  I wonder the frequency of "bigram collocations" that exists in this study that are actually annotated MWEs. Since they don't take into syntax into account, 
+  bigrams should be much more general and higher in frequency, i dont exactly understand the concept of bigrams in this study. Does it only mean the words that simply can co-occur?
+  If so this study can be definetely applied to mwes which would have lower diversity than general bigrams/collocates.
+
+  *entropy is high in Hungarian, constructions seem similar to turkish, can be compared, exists in parseme 1.1, no consistency check yet)
+  
+
+	
