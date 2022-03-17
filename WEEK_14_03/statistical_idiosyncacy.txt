@@ -1,0 +1,25 @@
+Modeling Statistical Ididiosyncracy of MWEs
+
+-> Defines mwes as sequences of words that show some level of idiosyncracy which can be semantic or syntactic. 
+-> Non-compositionality is similar to idiosyncracy.
+
+-> Lexicalised MWEs -> syntactic 
+    institutionalized-> statistical idiosyn. (collocations)
+    
+  -> They present some earlier methods of MWE extraction focusing on distributional bilingual models of semantics (Hermann, 2012)
+  
+  -> Presenting anti-collocations from synonyms of the components of an MWE candidate. (which defines MWEhood)
+  
+  main terms to keep in mind are 
+  -> lexicalised and institutionalized mwes
+  
+  -> Collocational weight (discriminant property for N-N)
+  Hypothesis: For a two word compound, head is more likely to co-occur with the modifier than with the synonym of the modifier. 
+  -> They worked with a small dataset of around 200 mwes but it is manually annotated for mwes (can make it more correct)
+  -> Statistical idiosyncracy == collocational weigth
+  -> Evaluation with (probability from frequency independent)
+  Multinominal likelihood (mutual dependency of words of a co-occurrence) 
+  Mutual Information 
+  (performs better)
+  
+  
