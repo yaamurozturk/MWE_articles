@@ -47,6 +47,7 @@ Knowledge of Multiword Expression Compositionality? (Ali Hakimi Parizi and Paul 
 
 - Exploring Vector Space Models to Predict the Compositionality of German Noun-Noun Compounds (Sabine Schulte im Walde and Stefan Muller and Stephen Roller)
 
+-Is Knowledge-Free Induction of Multiword Unit Dictionary Headwords a Solved Problem? (Patrick Schone and Daniel Jurafsky)
 
 Sources
 ---
