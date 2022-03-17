@@ -41,6 +41,10 @@ Knowledge of Multiword Expression Compositionality? (Ali Hakimi Parizi and Paul 
 
 - Identifying bilingual Multi-Word Expressions for Statistical Machine Translation (Dhouha Bouamor, Nasredine Semmar, Pierre Zweigenbaum) ( + week 4)
 
+- Factoring Ambiguity out of the Prediction of Compositionality for German Multi-Word Expressions ( Stefan Bott and Sabine Schulte im Walde ) 
+
+- A Wind of Change: Detecting and Evaluating Lexical Semantic Change across Times and Domains (Dominik Schlechtweg1, Anna H ̈atty1,2, Marco del Tredici3, Sabine Schulte im Walde)
+
 
 Sources
 ---
