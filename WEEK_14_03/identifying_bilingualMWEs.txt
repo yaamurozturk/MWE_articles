@@ -1,0 +1,35 @@
+Identifying bilingual mwes for statistical MT (noting that this article is a bit old and smt has much improved now)
+
+-> French-English parallel corpus used for SMT. 
+-> they talk about the necessity of an MWE lexicon, but this resource is not extensive enough or available yet
+
+-> Pointed out that translation of an MWE might not have the same morphosyntactic structure in both languages.
+-> Operates on lemmas, they explain very specific mwe extraction methods because their method goes from more general to removing redundant mwes.
+-> Finds translations for all extracted MWEs
+
+Vector space model for MWEs alignment in parallel corpus:
+-> Aims to find an adequate translation for each mwe. Traditionally this would require bilingual dictionaries. 
+They propose a resource independent method which only requires a parallel corpus & list of mwe candidates. (based on distributional semantics)
+
+-> A representation is associated with each expression (source and target)
+Here, each mwe is associated wit an N vector and N is the number of sentences in a corpus.
+
+Vector space model -> to establish a relation between each pair of MWE (source and target)
+  -> extracting mwes from source (by frequency)
+  ->extracting target translation candidates (apperaring in all parallel sentences containing MWEs)
+  -> confidence value (Jaccard index) for each relation
+  
+  Pros of this method -> captures semantic equivalence
+  
+  Bilingual Mwes in MOSES (a phrase based SMT system)
+  -> how can units of MWE translation help SMT systems
+  Their methods include:
+  -> retraining model with MWEs (so adding the extracted MWEs)
+  -> MWE in phrase table (for each phrase in an input sentence decoder will search all candidate translations and take into account the bilingual MWEs)
+  -> New feature for MWEs (adding binary feature to define if a candidate is an MWE or not)
+  
+
+They basically conclude that alignment based translation is impossible?? because of idiosyncracy and non-compositionality of MWEs. 
+Works on correpondances, for frequent and LESS frequent expressions (which is good for diversity) 
+Using MWEs as additional parallel sentences show the best model to train. Additionally they think that morphosyntax is necessary 
+->For future work, comparable corpora is suggested instead of parallel
