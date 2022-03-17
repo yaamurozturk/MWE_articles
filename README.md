@@ -45,6 +45,8 @@ Knowledge of Multiword Expression Compositionality? (Ali Hakimi Parizi and Paul 
 
 - A Wind of Change: Detecting and Evaluating Lexical Semantic Change across Times and Domains (Dominik Schlechtweg1, Anna H ̈atty1,2, Marco del Tredici3, Sabine Schulte im Walde)
 
+- Exploring Vector Space Models to Predict the Compositionality of German Noun-Noun Compounds (Sabine Schulte im Walde and Stefan Muller and Stephen Roller)
+
 
 Sources
 ---
