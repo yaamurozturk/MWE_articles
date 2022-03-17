@@ -34,8 +34,7 @@ First edition of reading list
 Gothenburg, Sweden, April 26 2014. c©2014 Association for Computational Linguistics- Towards a computational model of grammaticalization and
 lexical diversity ( + week 3)
 
-- Do Character-Level Neural Network Language Models Capture ( + week 4)
-Knowledge of Multiword Expression Compositionality? (Ali Hakimi Parizi and Paul Cook)
+- Do Character-Level Neural Network Language Models Capture Knowledge of Multiword Expression Compositionality? (Ali Hakimi Parizi and Paul Cook) ( + week 4)
 
 - Modeling the Statistical Idiosyncrasy of Multiword Expressions (Nivre, Farahmand) ( + week 4)
 
