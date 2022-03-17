@@ -1,0 +1,50 @@
+Do character leve neural network models capture knowledge of MWE compositionality?
+(Coook & Parizi)
+
+**The answer is basically not so well for German, better in English noun compounds and particle compotents of VPCs in English.
+
+They are: 
+->Proposing a model for MWE compositionality prediction based on character level neural network models.
+->Tested on German and English VPCs and noun compounds. 
+-> Character level is chosen to predict unseen data, and does not require token level identification of MWEs in a training corpus.
+
+->Compositionality described as the degree to which the meaning of an MWE is predictable from the meaning of its components. 
+So they consider overall compositionality and component compositionality seperately. 
+
+-> They give an example of a common method "comparing distributional representations of an MWE and its component words"
+reason being: representation of a compositional MWE will be more similar to te representations of its component words compared to non-compositional ones.
+but this is dependent on a token level identification of MWEs in a corpus. (which lowers the possibility of working on unseen data i guess??)
+
+-> Word level models can be more accurate but character level promotes out-of-vocabulary data
+
+Methodology:
+
+What we expect: if an MWE is compositional, expected to be similar to its component words(and their vector representations)
+In a character level model, MWE and its components are considered as a sequence of characters
+These sequences are fed to the NNL and hidden state of the NNL at the end of the sequence is taken as the vector representation for that sequence.
+
+Calculation of compositionality in two ways:
+	-> Measuring similarity of the MWE and the each of its component words, combining 2 similarities into an overall compositionality score
+	
+
+	-> Considering similarity between the MWE and the summation of its component words' vectors
+	mwe vector representation = cosine similarity of mwe vector, addition of vector representations of components 1 and 2 ? (see page 186)
+	BUT it is stated that this is not very discontinous MWE friendly. 
+	
+
+Language model: 
+-> RNN model explained here (http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
+
+-> They tested on English VPCs, noun compounds and German ncs.
+
+Results for both components:
+
+-> correlations for english ncs and particle components in VPCs are significant, very low for german
+
+For individual component words:
+->compositionality of a specific component word where C is the vector representation of a component word
+and comparing with human judgement of compositionality.
+-> correlation between EVPC particles but not verbs (maybe proving that Verbal MWEs are more difficult to identify/extract)
+-> model is better able to predict the second component of an mwe.
+
+-> needs to be tested with a larger corpora 
