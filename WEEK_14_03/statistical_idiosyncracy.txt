@@ -1,4 +1,6 @@
-Modeling Statistical Ididiosyncracy of MWEs
+Modeling Statistical Idiosyncracy of MWEs
+
+
 
 -> Defines mwes as sequences of words that show some level of idiosyncracy which can be semantic or syntactic. 
 -> Non-compositionality is similar to idiosyncracy.
@@ -19,7 +21,6 @@ Modeling Statistical Ididiosyncracy of MWEs
   -> Statistical idiosyncracy == collocational weigth
   -> Evaluation with (probability from frequency independent)
   Multinominal likelihood (mutual dependency of words of a co-occurrence) 
-  Mutual Information 
-  (performs better)
+  Mutual Information -> (performs better)
   
   
