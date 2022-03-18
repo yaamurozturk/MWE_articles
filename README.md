@@ -48,6 +48,11 @@ lexical diversity ( + week 3)
 
 - Is Knowledge-Free Induction of Multiword Unit Dictionary Headwords a Solved Problem? (Patrick Schone and Daniel Jurafsky)
 
+Articles for Turkish MWE workshop SOA
+---
+- Overcoming the challenges in morphological annotation of Turkish in universal dependencies framework (https://aclanthology.org/2021.law-1.12.pdf)
+- Tagging and Morphological Disambiguation of Turkish Text (https://aclanthology.org/A94-1024.pdf)
+
 Sources
 ---
 PARSEME shared task web pages (+ results):
