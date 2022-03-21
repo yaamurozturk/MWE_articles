@@ -52,7 +52,7 @@ Articles for Turkish MWE workshop SOA
 ---
 - Overcoming the challenges in morphological annotation of Turkish in universal dependencies framework (https://aclanthology.org/2021.law-1.12.pdf)
 - Tagging and Morphological Disambiguation of Turkish Text (https://aclanthology.org/A94-1024.pdf)
-
+- Integrating morphology with MWE processing in Turkish (Oflazer, Say https://aclanthology.org/W04-0409.pdf)
 Sources
 ---
 PARSEME shared task web pages (+ results):
