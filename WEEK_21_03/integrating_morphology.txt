@@ -1,0 +1,33 @@
+Integrating Morphology with Multi-word Expression Processing in Turkish
+
+-> Description of a MWE processor for preprocessing in Turkish. 
+-> They start with explaining why Turkish needs special treatment and the necessity of MWE processing
+-> With MWE processing, aim is to identtify segments of text where syntactic structure and semantics of a sequence of words, which can be discontinous, are non-compositional.
+-> Marking MWEs reduce multiplicative ambiguity (?) as morphological interpretations of tokens are reduced when they are coalesced into MWEs with one single interpretation.
+
+Problems regarding Turkish: 
+-> Substantial use of support verbs with lexicalised direct or oblique objects subject to various morphological constraints.
+-> Usage of partial and full reduplication forms of POS 
+
+Related work
+-> They explain that frequences of MWEs are too low for statistical extraction
+-> Semantic field annotator: lexicon of words and word units, results in high precision but low recall, showing that statistical methods filtering low frequencies do fail
+->Interesting Basque specific terminology extraction system that covers MWEs as a subset. (parsing, regex, stats)
+-> Disadvantages of rule-based approaches: less flexible, time consuming for big corpus 
+-> Suggested method: Hybrid approaches using rule based methods to identify possible mwes in a corpus and then using stats to enhance the results obtained. (eliminating)
+what they suggest is that going from more general to less
+
+
+MWES in Turkish:
+-> word structures with productive inflectional and derivational processes
+-> Essential 4 forms of MWEs:
+  -lexicalised collocations: fixed components
+      -hiç olmazsa (lit. if it never is, meaning. at least, cannot change this structure)
+  -semi-lexicalised collocations:  some components fixed, some can vary via inflectional and derivational morphology processes, semantics are non compositional 
+      -kafayı yemek (lit. eating head, meaning. going nuts, can be changed with inflection, kafayı yedim (i got nuts), kafayı yiyecekler (they will go nuts) 
+      possessive agreements markers are not allowed 
+  -non-lexicalised collocations
+  -mwe named-entities 
+          
+          
+          
