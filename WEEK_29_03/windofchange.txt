@@ -1,2 +1,25 @@
 A wind of change: detecting and evaluating lexical semantic change across times and domains
+-> about semantic change (sense) across time and domains. 
+-> Diachronic lexical semantic change detection: detection of word sense changes over time 
+-> Now existing models perform differently with certain parameters and in this article they compare the performances of existing models 
+-> Combinations that change: -Semantic representations
+                             -Alignmment techniques 
+                             -Detection measures
+                             -preprocessing and parameters 
+                    
+-> They also mention "synchronic task" in which they examine semantic change across domains (i.e. general vs technical language, dialect variations or term extraction)
+-> Synthetic datasets don't reflect diachronic change 
+
+
+Evaluation:
+Diachronic Usage Relatedness
+-> target words are chosen and examined, data annotated with degree of meaning similarity 
+Synchronic Usage Relatedness 
+-> target worrds were examined to show domain specific meaning shift 
+
+Methods for meaning representations : 
+-> semantic vector spaces 
+-> count based vector spaces: PPMI, Singular Value Decomposition, Random Indexing
+-> Predictive vector spaces: Skip-gram with negative sampling 
+
 
