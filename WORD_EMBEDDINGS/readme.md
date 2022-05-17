@@ -73,7 +73,6 @@ Summaries for articles
 -dealing with mwes using word embeddings is a bit problematic because each component of an mwe gets its own vector, therefore losing the meaning of the full component. Basically, MWEs are not translated by CWEs. 
 
 - In this article they propose a method of previously tokenizing the mwes gathered from a list of mwes. 
-- 
 - They show how the pre-tokenization of mwes as a single token performs better than averaging the embeddings of individual components of the mwe. 
 
 -Why averaging the vectors does not work? because of non-compositionality obviously. 
