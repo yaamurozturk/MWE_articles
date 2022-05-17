@@ -1,9 +1,11 @@
 Main question: Can meaning differences among MWEs be estimated using word embeddings?
 ---
 
--to measure distance between clusters we need to compare the distance between two individuals (so two occurrences of mwes)
--bert: if we look in terms of meaning, abstract representation of meaning of an expression, compare to meaning of a mwe in another sentence
--or non-contextual could be direct representation of types and contextual would be occurrences
+- to measure distance between clusters we need to compare the distance between two individuals (so two occurrences of mwes)
+
+- bert: if we look in terms of meaning, abstract representation of meaning of an expression, compare to meaning of a mwe in another sentence
+
+- or non-contextual could be direct representation of types and contextual would be occurrences
 
 Do we want to work on identification of mwes using word embeddings, or extraction or what? and why do we want to calculate the distance among different types of mwes, how will this help the task? 
 do we want to deduce the meaning of non-compositional mwes with word embeddings, is it possible that pay_attention will be deemed similar to focus. 
