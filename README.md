@@ -4,8 +4,10 @@ Quantifying diversity of language phenomena in corpora and system predictions: C
 ----
 This directory will be used to provide summaries and notes for the articles that are integral to PARSEME project and my internship subject. 
 The below list of articles will be updated according to necessity, personal notes can be found in issues. 
+Folder MEMOIRE has notes for my internship report and WORD_EMBEDDINGS folder has notes for possible WE approaches. Pre-tokenization script for mwe processing will be added.
 
 \+ added for completed articles. 
+
 
 
 
