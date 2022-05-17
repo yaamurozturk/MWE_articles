@@ -90,13 +90,9 @@ Summaries for articles
 evaluating translation: 
 
 - In terms of MWE types, compound (c) was the easiest category to translate (success rate of 60.22%), and flat+fixed+idiom (ffi), which includes various idiomatic expressions, was the hardest (25.52%)
-- 
 - In terms of parts-of-speech of MWEs, it turned out that verbal MWEs were much more difficult to translate (21.01%) than nominal MWEs (48.06%).
-- 
 - adverbials translated with good accuracy, might be because the variety of context they are used is not very big
-- 
 - easiest to translate are noun compounds 
-- 
 - While stop words such as “in” and “a” are usually not aligned with significant words, the inclusion of these words in MWEs (e.g., in vain and a bit) establishes meaningful relationships across languages. 
 
 This article proves that taking mwes as single tokens might work for processing of mwes. 
