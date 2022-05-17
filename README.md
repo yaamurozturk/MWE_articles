@@ -1,4 +1,4 @@
-# MWE_articles
+# MWE Bibliography
 
 Quantifying diversity of language phenomena in corpora and system predictions: Case study of multiword expressions
 ----
