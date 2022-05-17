@@ -92,3 +92,13 @@ https://parsemefr.lis-lab.fr/parseme-st-guidelines/1.2/
 
 PARSEME shared task data 1.2  and system results:
 https://gitlab.com/parseme/sharedtask-data
+
+Tools for word embeddings
+---
+
+Gensim:
+https://radimrehurek.com/gensim/models/phrases.html
+
+https://medium.com/@nikhilbd/pointwise-vs-pairwise-vs-listwise-learning-to-rank-80a8fe8fadfd
+
+https://scikit-learn.org/0.15/modules/generated/sklearn.metrics.pairwise.pairwise_distances.html
