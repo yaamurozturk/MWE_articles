@@ -9,7 +9,7 @@ The below list of articles will be updated according to necessity, personal note
 
 
 
-First edition of reading list
+Reading list MWEs
 ---
 
 - Agata Savary, Carlos Ramisch, Silvio Ricardo Cordeiro, Federico Sangati, Veronika Vincze, Behrang QasemiZadeh, Marie Candito, Fabienne Cap, Voula Giouli, Ivelyna Stoyanova, Antoine Doucet (2017): "The PARSEME Shared Task on Automatic Identification of Verbal Multiword Expressions", in the Proceedings of the 13th Workshop on Multiword Expressions (MWE 2017), 4 April 2017, Valencia, Spain. ( + week 1)
@@ -47,6 +47,19 @@ lexical diversity ( + week 3)
 - Exploring Vector Space Models to Predict the Compositionality of German Noun-Noun Compounds (Sabine Schulte im Walde and Stefan Muller and Stephen Roller)
 
 - Is Knowledge-Free Induction of Multiword Unit Dictionary Headwords a Solved Problem? (Patrick Schone and Daniel Jurafsky)
+
+Reading list for MWE and Word Embeddings
+---
+
+- Pre-tokenization of Multi-word Expressions in Cross-lingual Word Embeddings (Naoki Otani, Satoru Ozaki, Xingyuan Zhao, Yucen Li, Micaelah St Johns, Lori Levin)
+
+- A Single Word is not Enough: Ranking Multiword Expressions Using Distributional Semantics (Martin Riedl, Chris Biemann)
+
+- A course about distributional semantics: https://typo.uni-konstanz.de/parseme/images/Meeting/2013-09-16-Warsaw-meeting/WG2-Snajder.pdf
+
+- Unsupervised multilingual word embeddings (Xilun Chen, Claire Cardie)
+
+- SPINE: SParse Interpretable Neural Embeddings (Subramanian, A., Pruthi, D., Jhamtani, H., Berg-Kirkpatrick, T., & Hovy, E. (2018)
 
 Articles for Turkish MWE workshop SOA
 ---
