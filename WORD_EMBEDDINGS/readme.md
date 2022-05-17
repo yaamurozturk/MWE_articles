@@ -71,39 +71,49 @@ Summaries for articles
 1. Pre-tokenization of Multi-word Expressions in Cross-lingual Word Embeddings (Naoki Otani, Satoru Ozaki, Xingyuan Zhao, Yucen Li, Micaelah St Johns, Lori Levin)
 -Cross lingual word embeddings (close vector representation of words that have similar meanings regardless of language) 
 -dealing with mwes using word embeddings is a bit problematic because each component of an mwe gets its own vector, therefore losing the meaning of the full component. Basically, MWEs are not translated by CWEs. 
+
 - In this article they propose a method of previously tokenizing the mwes gathered from a list of mwes. 
--They show how the pre-tokenization of mwes as a single token performs better than averaging the embeddings of individual components of the mwe. 
+- 
+- They show how the pre-tokenization of mwes as a single token performs better than averaging the embeddings of individual components of the mwe. 
 
 -Why averaging the vectors does not work? because of non-compositionality obviously. 
 
 -they give the example of alignment of “United” and “States” in chinese and english. Indeed united_states as a single token aligns more closer to the single token that means US in chinese. 
+
 -it is also pointed out that single token vectors of “united” and “states” is much closer than they should be, even though the separate meanings are not that similar. so since they are used mostly together, it confuses the vector representation. (this can also be the case for other mwes like verbal ones that we use a lot, of course won’t be as much as US but idk..)
+
 -They use a lexicon based approach to identify mwes in a corpus because automatic methods are proven to be still problematic. The dataset is in ten language pairs and contains MWEs in addition to single orthographic tokens. Shortcoming of lexicon approach is that you cannot identify mwes in the corpus that do not exist in the lexicon. 
+
 -monolingual word embeddings: fasttext with cbow. trained mwes are taken as one token “french_fries” has a different vector from those of “french” and “fries”.
+
 -cross-lingual mapping of embeddings: they take two sets of word embeddings from different languages and align the source em. to target em. based on a bilingual dictionary. 
+
 evaluating translation: 
--In terms of MWE types, compound (c) was the easiest category to translate (success rate of 60.22%), and flat+fixed+idiom (ffi), which includes various idiomatic expressions, was the hardest (25.52%)
--In terms of parts-of-speech of MWEs, it turned out that verbal MWEs were much more difficult to translate (21.01%) than nominal MWEs (48.06%).
--adverbials translated with good accuracy, might be because the variety of context they are used is not very big
--easiest to translate are noun compounds 
--While stop words such as “in” and “a” are usually not aligned with significant words, the inclusion of these words in MWEs (e.g., in vain and a bit) establishes meaningful relationships across languages. 
+
+- In terms of MWE types, compound (c) was the easiest category to translate (success rate of 60.22%), and flat+fixed+idiom (ffi), which includes various idiomatic expressions, was the hardest (25.52%)
+- 
+- In terms of parts-of-speech of MWEs, it turned out that verbal MWEs were much more difficult to translate (21.01%) than nominal MWEs (48.06%).
+- 
+- adverbials translated with good accuracy, might be because the variety of context they are used is not very big
+- 
+- easiest to translate are noun compounds 
+- 
+- While stop words such as “in” and “a” are usually not aligned with significant words, the inclusion of these words in MWEs (e.g., in vain and a bit) establishes meaningful relationships across languages. 
 
 This article proves that taking mwes as single tokens might work for processing of mwes. 
-—-----------------------------
 
 2. A Single Word is not Enough: Ranking Multiword Expressions Using Distributional Semantics (Martin Riedl, Chris Biemann)
--they propose a mechanism that ranks n-grams.
--they introduce a new concept to describe the multiwordness of a term by its uniqueness, which represents the likeliness of a term to be replaced with one token 
--hypothesis: n-grams, which are MWE, could be substituted by single words, thus they have many single words amongst their most similar terms. When a semantically non-compositional word combination is added to the vocabulary, it expresses a concept that is necessarily similar to other concepts. Hence, if a candidate multiword is similar to many single word terms, this indicates multiwordness.
-
+- they propose a mechanism that ranks n-grams.
+- they introduce a new concept to describe the multiwordness of a term by its uniqueness, which represents the likeliness of a term to be replaced with one token 
+- hypothesis: n-grams, which are MWE, could be substituted by single words, thus they have many single words amongst their most similar terms. When a semantically non-compositional word combination is added to the vocabulary, it expresses a concept that is necessarily similar to other concepts. Hence, if a candidate multiword is similar to many single word terms, this indicates multiwordness.
 
 3. Unsupervised multilingual word embeddings (mwe here refers to multlingual word embeddings) Xilun Chen, Claire Cardie
 
 multilingual word embeddings represent words from multiple languages in a single distributional vector space. 
--> meaning that words from different languages with similar meanings will be closely represented as vectors
--> bilingual word embeddings connects the lexical semantics of two languages, to train these, cross-lingual supervision is required (parallel corpora or bilingual lexica) so it is a bit costly and not low resource language friendly
--> used fasttext
--> they say that syntactic similarity between languages help with the quality of MWE,obviously. they worked on a few germanic and romance languages
+- meaning that words from different languages with similar meanings will be closely represented as vectors
+- bilingual word embeddings connects the lexical semantics of two languages, to train these, cross-lingual supervision is required (parallel corpora or bilingual lexica) so it is a bit costly and not low resource language friendly
+- used fasttext
+- they say that syntactic similarity between languages help with the quality of MWE,obviously. they worked on a few germanic and romance languages
 
 4. SPINE: Sparse Interpretable neural embeddings
 - aiming to show more interpretable results than glove and word2vec
