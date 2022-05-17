@@ -1,11 +1,5 @@
-about word embeddings
-install tools to work on word embeddings
-which kind of word embeddings to use
-the idea is to model the distance between two types
-measure distance between types
-a type is a cluster of all occurrences
-distance between these two clusters, take two occurrences from both types and see how distant they are and do pairwise comparison
-----
+Main question: Can meaning differences among MWEs be estimated using word embeddings?
+
 to measure distance between clusters we need to compare the distance between two individuals (so two occurrences of mwes)
 -> bert: if we look in terms of meaning, abstract representation of meaning of an expression, compare to meaning of a mwe in another sentence
 ->or non-contextual could be direct representation of types and contextual would be occurrences
@@ -15,8 +9,6 @@ Do we want to work on identification of mwes using word embeddings, or extractio
 do we want to deduce the meaning of non-compositional mwes with word embeddings, is it possible that pay_attention will be deemed similar to focus. 
 pay attention -> focus, homework…
 kick the bucket -> funeral, dead, bad… 
-
-
 
 1 - you work on how to compute semantic distances between two types, this means understanding word embedding, and trying to figure out how we can use word embedding for MWE (they usually only work for simple words). On that subject I don't know much so I can't really tell you where to start your readings (I can probably still help you find some interesting paper but we'd need to discuss about it first) 
 
@@ -55,8 +47,6 @@ we have a corpus annotated for mwes. the skipped ones in the consistency check c
 
 what can be done as an experiments is to compare the context of mwes with their own literal occurrences. so we take a corpus, we extract all the occurrences of a VID 
 —------------------------------------------------------------------
-
-
 
 Word2Vec: 
 -predictive embedding model, predicts most likely word in the given context
@@ -115,9 +105,6 @@ evaluating translation:
 
 This article proves that taking mwes as single tokens might work for processing of mwes. 
 —-----------------------------
-
-
-
 
 A Single Word is not Enough: Ranking Multiword Expressions Using Distributional Semantics (Martin Riedl, Chris Biemann)
 -they propose a mechanism that ranks n-grams.
@@ -191,6 +178,9 @@ The main difference above is a consequence of the fact Word2vec and Glove do not
 A practical implication of this difference is that we can use word2vec and Glove vectors trained on a large corpus directly for downstream tasks. All we need is the vectors for the words. There is no need for the model itself that was used to train these vectors.
 However, in the case of ELMo and BERT, since they are context dependent, we need the model that was used to train the vectors even after training, since the models generate the vectors for a word based on context. We can just use the context independent vectors for a word if we choose too (just get the raw trained vector from the trained model) , but this would defeat the very purpose/advantage of these models. 
 
+
+------------------------------------------------------------------------------------------
+
 word2vec/GloVe                            Bert/Elmo
 
 -word order not important                        word order important 
@@ -198,11 +188,12 @@ word2vec/GloVe                            Bert/Elmo
 different vectors for the same word that occur in different contexts 
 
 
+-----------------------------------------------------------------------------------------
 
 -> stuff to keep in mind: discontinuity, general preprocessing and mwe preprocessing 
 -> if we use raw files, we need to annotate for mwes. 
 -> trying first with the small data of french. 
 -> using already lemmatized and word forms can be compared, to see the meaning shift  
--> non contextual wes.
+-> non contextual we
 
 
