@@ -108,3 +108,5 @@ https://medium.com/@nikhilbd/pointwise-vs-pairwise-vs-listwise-learning-to-rank-
 https://scikit-learn.org/0.15/modules/generated/sklearn.metrics.pairwise.pairwise_distances.html
 
 https://pytorch.org/tutorials/beginner/nlp/word_embeddings_tutorial.html
+
+https://www.nltk.org/_modules/nltk/tokenize/mwe.html  (pretokenization)
