@@ -63,6 +63,8 @@ Reading list for MWE and Word Embeddings
 
 - SPINE: SParse Interpretable Neural Embeddings (Subramanian, A., Pruthi, D., Jhamtani, H., Berg-Kirkpatrick, T., & Hovy, E. (2018)
 
+- Attention is all you need (Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin) https://arxiv.org/pdf/1706.03762.pdf  (https://www.youtube.com/watch?v=iDulhoQ2pro&t=784s) 
+
 Articles for Turkish MWE workshop SOA
 ---
 - Overcoming the challenges in morphological annotation of Turkish in universal dependencies framework (https://aclanthology.org/2021.law-1.12.pdf)
