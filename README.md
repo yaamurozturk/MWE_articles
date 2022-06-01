@@ -106,3 +106,5 @@ https://radimrehurek.com/gensim/models/phrases.html
 https://medium.com/@nikhilbd/pointwise-vs-pairwise-vs-listwise-learning-to-rank-80a8fe8fadfd
 
 https://scikit-learn.org/0.15/modules/generated/sklearn.metrics.pairwise.pairwise_distances.html
+
+https://pytorch.org/tutorials/beginner/nlp/word_embeddings_tutorial.html
